@@ -17,14 +17,14 @@ I build software where correctness, performance, and clear system boundaries mat
 fn main() {
     let fearless = true;
 
-    let dapperi = Engineer {
+    let dapper = Engineer {
         language: Rust,
         building: [Ledgers, SettlementRails, DistributedSystems],
         invariant: "invalid states should not compile",
     };
 
     loop {
-        dapperi.ship(one_problem_at_a_time());
+        dapper.ship(one_problem_at_a_time());
     }
 }
 ```
