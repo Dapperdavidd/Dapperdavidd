@@ -63,8 +63,8 @@ That's the part of Rust I like most — it rewards precision. The same idea appl
 <div align="center">
 
 <!-- Replace GITHUB_USERNAME below with your actual GitHub handle, or delete this block -->
-![Stats](https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&show_icons=true&hide_border=true&theme=dark&bg_color=0d1117&title_color=f74c00&icon_color=f74c00)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GITHUB_USERNAME&layout=compact&hide_border=true&theme=dark&bg_color=0d1117&title_color=f74c00)
+![Stats](https://github-readme-stats.vercel.app/api?username=Dapperdavidd&show_icons=true&hide_border=true&theme=dark&bg_color=0d1117&title_color=f74c00&icon_color=f74c00)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dapperdavidd&layout=compact&hide_border=true&theme=dark&bg_color=0d1117&title_color=f74c00)
 
 </div>
 
