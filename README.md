@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dapperi 👾
+# Dapper 👾
 
 **Many problems, solved in Rust.**
 
