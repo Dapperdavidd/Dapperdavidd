@@ -4,11 +4,12 @@
 
 ### Many problems, solved in Rust.
 
-Backend systems &nbsp;·&nbsp; Financial infrastructure &nbsp;·&nbsp; Blockchain products
+**Full-stack engineer specializing in Rust backends and financial/Web3 products.**
+
+APIs & data &nbsp;·&nbsp; Web & mobile &nbsp;·&nbsp; Smart contracts & settlement
 
 <br>
 
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![X](https://img.shields.io/badge/@Dapperdavidd__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Dapperdavidd_)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-adesanya-a9a553323)
 [![Email](https://img.shields.io/badge/Say_Hello-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davidadesanya98@gmail.com)
@@ -17,43 +18,60 @@ Backend systems &nbsp;·&nbsp; Financial infrastructure &nbsp;·&nbsp; Blockchai
 
 <br>
 
-I build backend and financial systems where **correctness, data integrity, and clear boundaries** matter. Rust-first, with work spanning payments, ledgers, blockchain infrastructure, and mobile products.
+I build financial and on-chain products end to end—from **Rust APIs and PostgreSQL data models** to **mobile interfaces, smart contracts, and settlement flows**. I care about correctness, clear system boundaries, and products that work beyond the demo.
 
 ## Selected work
 
 <table>
 <tr>
-<td colspan="2" width="100%">
-<sub>01 / CROSS-BORDER PAYMENTS</sub>
-<h3><a href="https://github.com/Dapperdavidd/ferry">Ferry ↗</a></h3>
-<p><strong>Send dollars across borders from your phone, settled in a second.</strong></p>
-<p>A native mobile app on Monad with passkey accounts, gasless AUSD transfers, on-chain receipts, and atomic cash-outs through Agora Instant Settlement.</p>
+<td width="100%">
+<sub>FLAGSHIP / FULL-STACK FINTECH</sub>
+<h2><a href="https://github.com/Dapperdavidd/ferry">Ferry ↗</a></h2>
+<p><strong>Cross-border dollars from your phone, settled in a second.</strong></p>
+<p>Ferry is a native mobile app on Monad. It uses passkeys instead of seed phrases, moves AUSD without making the user hold gas, and settles cash-outs atomically.</p>
+<p><strong>What I built</strong><br>React Native client · NestJS/PostgreSQL API · passkey account flow · gasless transaction relayer · Solidity settlement contract</p>
+<p><strong>Proof</strong><br>Balances, sends, cash-out swaps, and receipts run on Monad testnet and resolve to on-chain transaction hashes.</p>
 <p><code>React Native</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Solidity</code> <code>Monad</code></p>
+<p><a href="https://github.com/Dapperdavidd/ferry"><strong>Repository →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Dapperdavidd/ferry/blob/main/docs/specs/cross-border-ausd-design.md"><strong>System design →</strong></a></p>
 </td>
 </tr>
+</table>
+
+<table>
 <tr>
 <td width="50%" valign="top">
-<sub>02 / TOKENIZED EQUITIES</sub>
+<sub>RUST + MOBILE + BASE</sub>
 <h3><a href="https://github.com/Dapperdavidd/Tickereless">Tickerless ↗</a></h3>
-<p>Turns products, brands, and ideas into paths for discovering tokenized equities. Built around a Rust API, a Flutter client, and live demo contracts on Base Sepolia.</p>
+<p>Turns products, brands, and ideas into paths for discovering tokenized equities.</p>
+<p><strong>Built:</strong> company-resolution and authentication APIs, PostgreSQL-backed discovery history, a Flutter client, Base Sepolia contracts, and server-side transaction verification.</p>
+<p><strong>Proof:</strong> deployed API, live testnet contracts, CI, and working Search, Lens, Link, quote, purchase, and portfolio flows.</p>
 <p><code>Rust</code> <code>Flutter</code> <code>PostgreSQL</code> <code>Solidity</code></p>
+<p><a href="https://github.com/Dapperdavidd/Tickereless"><strong>Repository →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Dapperdavidd/Tickereless/blob/main/deployments/base-sepolia.json"><strong>Testnet deployment →</strong></a></p>
 </td>
 <td width="50%" valign="top">
-<sub>03 / REAL ESTATE</sub>
+<sub>RUST + REACT + POSTGRESQL</sub>
 <h3><a href="https://github.com/Dapperdavidd/noma">NOMA ↗</a></h3>
-<p>A Nigerian real-estate marketplace with full-text search, listing lifecycle management, moderation, inquiries, and agent infrastructure.</p>
-<p><code>Rust</code> <code>Actix Web</code> <code>PostgreSQL</code> <code>React</code></p>
+<p>A Nigerian real-estate marketplace built as a conventional full-stack product.</p>
+<p><strong>Built:</strong> authentication, full-text property search, listing lifecycle management, inquiries, saved properties, moderation, and agent/admin dashboards.</p>
+<p><strong>Proof:</strong> integration-tested workflows, isolated test data, auditable moderation, cursor pagination, and production container definitions.</p>
+<p><code>Rust</code> <code>Actix Web</code> <code>SQLx</code> <code>PostgreSQL</code> <code>React</code></p>
+<p><a href="https://github.com/Dapperdavidd/noma"><strong>Repository →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Dapperdavidd/noma/blob/main/docs/architecture.md"><strong>Architecture →</strong></a></p>
 </td>
 </tr>
+</table>
+
+### More systems work
+
+<table>
 <tr>
 <td width="50%" valign="top">
-<sub>04 / AGENTIC PAYMENTS</sub>
+<sub>AGENTIC PAYMENTS</sub>
 <h3><a href="https://github.com/Dapperdavidd/metriq">Metriq ↗</a></h3>
-<p>Metered spending control for AI agents: capped budgets, real-time payment decisions, a live ledger, and verifiable receipts.</p>
+<p>Metered spending control for AI agents: capped budgets, real-time payment decisions, a live event-driven ledger, and verifiable receipts.</p>
 <p><code>Solidity</code> <code>TypeScript</code> <code>Noir</code></p>
 </td>
 <td width="50%" valign="top">
-<sub>05 / PRIVATE SETTLEMENT</sub>
+<sub>PRIVATE RWA SETTLEMENT</sub>
 <h3><a href="https://github.com/Dapperdavidd/noir-rail">NoirRail ↗</a></h3>
 <p>Shielded settlement for tokenized real-world assets on Stellar, combining private positions with selective, verifiable disclosure.</p>
 <p><code>Rust</code> <code>Circom</code> <code>Soroban</code> <code>Stellar</code></p>
@@ -61,7 +79,7 @@ I build backend and financial systems where **correctness, data integrity, and c
 </tr>
 </table>
 
-## In the workshop
+## Currently learning in public
 
 > ### [Wallet-API ↗](https://github.com/Dapperdavidd/Wallet-API)
 >
@@ -69,19 +87,14 @@ I build backend and financial systems where **correctness, data integrity, and c
 >
 > `Actix Web` · `SQLx` · `PostgreSQL` · `Concurrency` · `Testing`
 
-## Problems I like working on
+## Across the stack
 
-`Financial infrastructure` &nbsp; `Ledgers & reconciliation` &nbsp; `Payments & settlement`
-
-`Data integrity` &nbsp; `Backend systems` &nbsp; `Applied cryptography` &nbsp; `Distributed systems`
-
-## Toolkit
-
-| | |
+| Area | Tools I build with |
 | --- | --- |
-| **Primary** | Rust · Actix Web · PostgreSQL · Tokio |
-| **Product** | Flutter · TypeScript · React · React Native |
+| **Backend & data** | Rust · Actix Web · Tokio · SQLx · PostgreSQL · NestJS |
+| **Product** | TypeScript · React · React Native · Flutter |
 | **On-chain** | Solidity · Soroban · Circom · Noir |
+| **Problems** | Payments · settlement · ledgers · data integrity · applied cryptography |
 
 <br>
 
