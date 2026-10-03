@@ -10,6 +10,7 @@ Backend systems &nbsp;·&nbsp; Financial infrastructure &nbsp;·&nbsp; Blockchai
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![X](https://img.shields.io/badge/@Dapperdavidd__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Dapperdavidd_)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-adesanya-a9a553323)
 [![Email](https://img.shields.io/badge/Say_Hello-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davidadesanya98@gmail.com)
 
 </div>
@@ -92,6 +93,6 @@ The rules should be explicit. The data should tell the truth. The system should 
 
 <br>
 
-[**X**](https://x.com/Dapperdavidd_) &nbsp;·&nbsp; [**Email**](mailto:davidadesanya98@gmail.com) &nbsp;·&nbsp; [**GitHub**](https://github.com/Dapperdavidd)
+[**X**](https://x.com/Dapperdavidd_) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/david-adesanya-a9a553323) &nbsp;·&nbsp; [**Email**](mailto:davidadesanya98@gmail.com) &nbsp;·&nbsp; [**GitHub**](https://github.com/Dapperdavidd)
 
 </div>
