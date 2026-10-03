@@ -2,81 +2,96 @@
 
 # Dapper 👾
 
-**Many problems, solved in Rust.**
+### Many problems, solved in Rust.
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+Backend systems &nbsp;·&nbsp; Financial infrastructure &nbsp;·&nbsp; Blockchain products
+
+<br>
+
+[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![X](https://img.shields.io/badge/@Dapperdavidd__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Dapperdavidd_)
+[![Email](https://img.shields.io/badge/Say_Hello-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davidadesanya98@gmail.com)
 
 </div>
 
----
+<br>
 
-I build backend and financial systems where correctness, data integrity, and clear system boundaries matter. Rust-first, with work spanning payments, ledgers, blockchain infrastructure, and mobile products.
+I build backend and financial systems where **correctness, data integrity, and clear boundaries** matter. Rust-first, with work spanning payments, ledgers, blockchain infrastructure, and mobile products.
 
-## Selected Work
+## Selected work
 
-### [Ferry](https://github.com/Dapperdavidd/ferry)
+<table>
+<tr>
+<td colspan="2" width="100%">
+<sub>01 / CROSS-BORDER PAYMENTS</sub>
+<h3><a href="https://github.com/Dapperdavidd/ferry">Ferry ↗</a></h3>
+<p><strong>Send dollars across borders from your phone, settled in a second.</strong></p>
+<p>A native mobile app on Monad with passkey accounts, gasless AUSD transfers, on-chain receipts, and atomic cash-outs through Agora Instant Settlement.</p>
+<p><code>React Native</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Solidity</code> <code>Monad</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>02 / TOKENIZED EQUITIES</sub>
+<h3><a href="https://github.com/Dapperdavidd/Tickereless">Tickerless ↗</a></h3>
+<p>Turns products, brands, and ideas into paths for discovering tokenized equities. Built around a Rust API, a Flutter client, and live demo contracts on Base Sepolia.</p>
+<p><code>Rust</code> <code>Flutter</code> <code>PostgreSQL</code> <code>Solidity</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>03 / REAL ESTATE</sub>
+<h3><a href="https://github.com/Dapperdavidd/noma">NOMA ↗</a></h3>
+<p>A Nigerian real-estate marketplace with full-text search, listing lifecycle management, moderation, inquiries, and agent infrastructure.</p>
+<p><code>Rust</code> <code>Actix Web</code> <code>PostgreSQL</code> <code>React</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>04 / AGENTIC PAYMENTS</sub>
+<h3><a href="https://github.com/Dapperdavidd/metriq">Metriq ↗</a></h3>
+<p>Metered spending control for AI agents: capped budgets, real-time payment decisions, a live ledger, and verifiable receipts.</p>
+<p><code>Solidity</code> <code>TypeScript</code> <code>Noir</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>05 / PRIVATE SETTLEMENT</sub>
+<h3><a href="https://github.com/Dapperdavidd/noir-rail">NoirRail ↗</a></h3>
+<p>Shielded settlement for tokenized real-world assets on Stellar, combining private positions with selective, verifiable disclosure.</p>
+<p><code>Rust</code> <code>Circom</code> <code>Soroban</code> <code>Stellar</code></p>
+</td>
+</tr>
+</table>
 
-Cross-border dollar payments on Monad using AUSD, passkeys, gasless transactions, and atomic settlement.
+## In the workshop
 
-`React Native` · `NestJS` · `PostgreSQL` · `Solidity` · `Monad`
+> ### [Wallet-API ↗](https://github.com/Dapperdavidd/Wallet-API)
+>
+> Building a wallet API from first principles while going deeper into production Rust and backend engineering.
+>
+> `Actix Web` · `SQLx` · `PostgreSQL` · `Concurrency` · `Testing`
 
-### [Tickerless](https://github.com/Dapperdavidd/Tickereless)
+## Problems I like working on
 
-Turns real-world companies and products into interfaces for discovering and interacting with tokenized equities on Base.
+`Financial infrastructure` &nbsp; `Ledgers & reconciliation` &nbsp; `Payments & settlement`
 
-`Rust` · `Flutter` · `PostgreSQL` · `Solidity` · `Base`
+`Data integrity` &nbsp; `Backend systems` &nbsp; `Applied cryptography` &nbsp; `Distributed systems`
 
-### [NOMA](https://github.com/Dapperdavidd/noma)
+## Toolkit
 
-A Nigerian real-estate marketplace with search, listing lifecycle, moderation, and agent infrastructure.
+| | |
+| --- | --- |
+| **Primary** | Rust · Actix Web · PostgreSQL · Tokio |
+| **Product** | Flutter · TypeScript · React · React Native |
+| **On-chain** | Solidity · Soroban · Circom · Noir |
 
-`Rust` · `Actix Web` · `PostgreSQL` · `React`
+<br>
 
-### More work
+<div align="center">
 
-- **[Metriq](https://github.com/Dapperdavidd/metriq)** — metered spending infrastructure for AI agents, with capped budgets, a live ledger, and verifiable receipts.
-- **[NoirRail](https://github.com/Dapperdavidd/noir-rail)** — private settlement for tokenized real-world assets using zero-knowledge proofs and Stellar.
+### “Good software should make invalid states difficult to represent.”
 
-## Currently Learning
+The rules should be explicit. The data should tell the truth. The system should survive contact with the real world.
 
-Building **[Wallet-API](https://github.com/Dapperdavidd/Wallet-API)** from first principles while going deeper into production Rust and backend engineering.
+<br>
 
-`Actix Web` · `SQLx` · `PostgreSQL` · `Concurrency` · `Testing`
+[**X**](https://x.com/Dapperdavidd_) &nbsp;·&nbsp; [**Email**](mailto:davidadesanya98@gmail.com) &nbsp;·&nbsp; [**GitHub**](https://github.com/Dapperdavidd)
 
-## Engineering Interests
-
-- Financial infrastructure
-- Ledgers and reconciliation
-- Payments and settlement
-- Data integrity and audit trails
-- Backend systems
-- Applied cryptography and blockchain infrastructure
-- Distributed systems
-
-## Tech
-
-**Primary**
-
-![Rust](https://img.shields.io/badge/Rust-111827?style=for-the-badge&logo=rust&logoColor=white)
-![Actix Web](https://img.shields.io/badge/Actix_Web-111827?style=for-the-badge&logo=rust&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-111827?style=for-the-badge&logo=rust&logoColor=white)
-
-**Also building with**
-
-![Flutter](https://img.shields.io/badge/Flutter-111827?style=for-the-badge&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_/_React_Native-111827?style=for-the-badge&logo=react&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-111827?style=for-the-badge&logo=solidity&logoColor=white)
-
-## Philosophy
-
-> Good software should make invalid states difficult to represent.
-
-Rust rewards precision. The same idea applies to accounting and finance: the rules should be explicit, the data should tell the truth, and the architecture should survive real-world failure.
-
-## Contact
-
-[![X](https://img.shields.io/badge/@Dapperdavidd__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Dapperdavidd_)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davidadesanya98@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dapperdavidd)
+</div>
